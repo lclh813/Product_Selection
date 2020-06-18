@@ -1,6 +1,5 @@
 # Product_Selection
 ## Objective
-To select a list of products based on certain criteria.
 
 ## Spyder Project
 <br>
