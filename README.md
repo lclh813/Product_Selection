@@ -16,6 +16,14 @@
   * ![#00b050](https://placehold.it/15/00b050/000000?text=+) ```Insert_DB```
   
 - ```query_db.py``` Use ODBC drivers to connect Python to SQL Server and create the expected table.
+
+  * ![#00b050](https://placehold.it/15/00b050/000000?text=+) ```_Filter_Sqlstr```
+  * ![#00b050](https://placehold.it/15/00b050/000000?text=+) ```_Cum_Sqlstr```
+  * ![#00b050](https://placehold.it/15/00b050/000000?text=+) ```Get_T1```
+  * ![#00b050](https://placehold.it/15/00b050/000000?text=+) ```Get_T2```
+  * ![#00b050](https://placehold.it/15/00b050/000000?text=+) ```Get_Both```
+  * ![#00b050](https://placehold.it/15/00b050/000000?text=+) ```Comb_Range```
+
 - ```main.py``` Contain all the execution codes.
 
 ## SQL - For Loop Statement
