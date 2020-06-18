@@ -7,6 +7,7 @@
 
 - ```data_config.py``` Define constants.
 - ```create_db.py``` Import csv files into SQL database.
+
 <div class="text-white bg-gray-dark mb-2">
   .text-white on .bg-gray-dark
 </div>
