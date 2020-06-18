@@ -7,7 +7,7 @@
 
 - ```data_config.py``` Define constants.
 - ```create_db.py``` Import csv files into SQL database.
-  * ![#00b050](https://placehold.it/15/00b050/000000?text=+) *```def```* ```Get_Origin```
+  * ![#00b050](https://placehold.it/15/00b050/000000?text=+) ```def Get_Origin```
 
 - ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) `#c5f015`
 
