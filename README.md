@@ -24,8 +24,6 @@
   * ![#00b050](https://placehold.it/15/00b050/000000?text=+) ```Get_Both```
   * ![#00b050](https://placehold.it/15/00b050/000000?text=+) ```Comb_Range```
 
-(https://placehold.it/15/f03c15/000000?text=+) `#f03c15`
-
 - ```main.py``` Contain all the execution codes.
 
 ## SQL - For Loop Statement
