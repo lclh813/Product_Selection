@@ -7,7 +7,7 @@
 
 - ```data_config.py``` Define constants.
 - ```create_db.py``` Import csv files into SQL database.
-> [Green](def) Get_Origin
+- ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) `#c5f015`
 
 
 
