@@ -9,7 +9,7 @@
 - ```create_db.py``` Import csv files into SQL database.
 
   * ![#e2f0d9](https://placehold.it/15/e2f0d9/000000?text=+) ```Get_Origin``` Create a dataframe from csv files.
-  * ![#e2f0d9](https://placehold.it/15/e2f0d9/000000?text=+) ```Time_Detect``` Find columns whose names contain the word "time" and convert the column type from string to dtetime format.
+  * ![#e2f0d9](https://placehold.it/15/e2f0d9/000000?text=+) ```Time_Detect``` Find columns whose names contain the word "time" and convert the column type from string to datetime format.
   * ![#e2f0d9](https://placehold.it/15/e2f0d9/000000?text=+) ```Map_DB``` Data type mappings between Python and SQL Server.
   * ![#e2f0d9](https://placehold.it/15/e2f0d9/000000?text=+) ```Modify_DB``` Convert data type of columns that are misclassified as integer into string.
   * ![#e2f0d9](https://placehold.it/15/e2f0d9/000000?text=+) ```Auto_Create``` Create a new table in SQL Server and specify data type of each column. 
