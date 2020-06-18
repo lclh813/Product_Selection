@@ -7,10 +7,7 @@
 
 - ```data_config.py``` Define constants.
 - ```create_db.py``` Import csv files into SQL database.
-
-```diff
-+ text in green
-```
+> [Green](def) Get_Origin
 
 
 
