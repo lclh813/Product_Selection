@@ -11,10 +11,7 @@ To manage inventory with multiple locations by relocating products based on cert
 | :---        | :---       |
 | Apple       | Shop 1     |
 | Banana      | Shop 2     |
-| Grapes      | Shop 3     |
-| Lemon       | Shop 4     |
-| Orange      | Shop 5     |
-| Strawberry  | Shop 6     |
+| Orange      | Shop 3     |
 
 > ***2.1.2. Transaction Records***
 
@@ -60,7 +57,7 @@ To manage inventory with multiple locations by relocating products based on cert
 | #002     | Banana   | 1        | Shop 2                   | New Shop                 | New Shop                 |
 | #003     | Apple    | 2        | New Shop                 | New Shop                 | New Shop                 |
 | #003     | Banana   | 3        | Shop 2                   | New Shop                 | New Shop                 |
-| #003     | Orange   | 6        | Shop 5                   | Shop 5                   | New Shop                 |
+| #003     | Orange   | 6        | Shop 3                   | Shop 3                   | New Shop                 |
 | #004     | Apple    | 20       | New Shop                 | New Shop                 | New Shop                 |
 | #005     | Apple    | 15       | New Shop                 | New Shop                 | New Shop                 |
 | #006     | Apple    | 7        | New Shop                 | New Shop                 | New Shop                 |
