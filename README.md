@@ -4,8 +4,8 @@
 To manage inventory with multiple locations by relocating products based on certain criteria to see if shipping costs can be reduced effectively.
 
 ## Part 2. Data
-### 2.1. Background Information
-> ***Product List and Corresponding Storage Location***
+### 2.1. Original Data
+> ***2.1.1. Product List and Corresponding Storage Location***
 
 | Prouduct    | Shop       |
 | :---        | :---       |
@@ -16,30 +16,45 @@ To manage inventory with multiple locations by relocating products based on cert
 | Orange      | Shop 5     |
 | Strawberry  | Shop 6     |
 
-### 2.2. Original Data
-> ***Transaction Records***
+> ***2.1.2. Transaction Records***
 
-| Order ID | Product  | Quantity | Shop   |
-| :---     | :---     | :---     | :---   |
-| #001     | Apple    | 10       | Shop 1 |
-| #002     | Apple    | 5        | Shop 1 |
-| #002     | Banana   | 1        | Shop 2 |
-| #003     | Apple    | 2        | Shop 1 |
-| #003     | Banana   | 3        | Shop 2 |
-| #003     | Orange   | 6        | Shop 5 |
-| #004     | Apple    | 20       | Shop 1 |
-| #005     | Apple    | 15       | Shop 1 |
-| #006     | Apple    | 7        | Shop 1 |
-| #006     | Banana   | 4        | Shop 2 |
+| Order ID | Product  | Quantity | 
+| :---     | :---     | :---     | 
+| #001     | Apple    | 10       | 
+| #002     | Apple    | 5        |
+| #002     | Banana   | 1        | 
+| #003     | Apple    | 2        |
+| #003     | Banana   | 3        |
+| #003     | Orange   | 6        | 
+| #004     | Apple    | 20       | 
+| #005     | Apple    | 15       |
+| #006     | Apple    | 7        | 
+| #006     | Banana   | 4        | 
 
 ### 2.3. Expected Result
 > ***2.3.1. Concat Purchased Products by Order ID***
 
-| Product               | Order ID          | # of Order | Cumulative # of Order | 
-| :---                  | :---              | :---       | :---                  |
-| Apple                 | #001, #004, #005  | 3          | 3                     |
-| Apple, Banana         | #002, #006        | 2          | 5                     |  
-| Apple, Banana, Orange | #003              | 1          | 6                     |
+| Product               | Order ID          | # of Order | Cumulative # of Order | % of Total Orders |
+| :---                  | :---              | :---       | :---                  | :---              |
+| Apple                 | #001, #004, #005  | 3          | 3                     | 50%               |
+| Apple, Banana         | #002, #006        | 2          | 5                     | 83%               | 
+| Apple, Banana, Orange | #003              | 1          | 6                     | 100%              |
+
+> ***2.3.2. Find Product Sets that Satisfy Given Thresholds***
+
+| % of Total Orders | Product               |
+| :---              | :---                  |
+| 50%               | Apple                 |
+| 60%               | Apple, Banana         |
+| 70%               | Apple, Banana         |
+| 80%               | Apple, Banana         |
+| 90%               | Apple, Banana, Orange |
+| 100%              | Apple, Banana, Orange |
+
+> ***2.3.3. ***
+
+
+
 
 
 
