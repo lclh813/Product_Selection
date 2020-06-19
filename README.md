@@ -54,7 +54,7 @@ To manage inventory with multiple locations by relocating products based on cert
 > ***2.3.3. Relocate Products Based on Given Thresholds***
 
 | Order ID | Product  | Quantity | Meet 50% of Total Orders | Meet 70% of Total Orders | Meet 90% of Total Orders |
-| :---     | :---     | :---:    | :---                     | :---                     | :---                     |
+| :---:    | :---:    | :---:    | :---:                    | :---:                    | :---:                    |
 | #001     | Apple    | 10       | *New Shop*               | *New Shop*               | *New Shop*               |     
 | #002     | Apple    | 5        | *New Shop*               | *New Shop*               | *New Shop*               |
 | #002     | Banana   | 1        | Shop 2                   | *New Shop*               | *New Shop*               |
