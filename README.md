@@ -19,7 +19,7 @@ To manage inventory with multiple locations by relocating products based on cert
 > ***2.1.2. Transaction Records***
 
 | Order ID | Product  | Quantity | 
-| :---     | :---     | :---:    | 
+| :---:    | :---     | :---:    | 
 | #001     | Apple    | 10       | 
 | #002     | Apple    | 5        |
 | #002     | Banana   | 1        | 
@@ -69,7 +69,7 @@ To manage inventory with multiple locations by relocating products based on cert
 > ***2.3.4. Compare Shipping Efficiency Befroe and After the Relocation***
 
 | % of Total Orders | Product Set           | # of Shipping Before Relocation | # of Shipping After Relocation | 
-| :---              | :---                  | :---:                           | :---:                          |
+| :---:             | :---                  | :---:                           | :---:                          |
 | 50%               | Apple                 | 10                              | 10                             |
 | 70%               | Apple, Banana         | 10                              | 7                              |
 | 90%               | Apple, Banana, Orange | 10                              | 5                              |
