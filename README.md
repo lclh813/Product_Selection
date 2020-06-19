@@ -1,5 +1,70 @@
 # Product_Selection
-## Objective
+## Part 1. Objective
+
+To manage inventory with multiple locations by relocating products based on certain criteria to see if shipping costs can be reduced effectively.
+
+## Part 2. Data
+### 2.1. Background Information
+> ***Product List and Corresponding Storage Location***
+
+| Prouduct    | Shop       |
+| :---        | :---       |
+| Apple       | Shop 1     |
+| Banana      | Shop 2     |
+| Grapes      | Shop 3     |
+| Lemon       | Shop 4     |
+| Orange      | Shop 5     |
+| Strawberry  | Shop 6     |
+
+### 2.2. Original Data
+> ***Transaction Records***
+
+| Order ID | Product  | Quantity | Shop   |
+| :---     | :---     | :---     | :---   |
+| #001     | Apple    | 10       | Shop 1 |
+| #002     | Apple    | 5        | Shop 1 |
+| #002     | Banana   | 1        | Shop 2 |
+| #003     | Apple    | 2        | Shop 1 |
+| #003     | Banana   | 3        | Shop 2 |
+| #003     | Orange   | 6        | Shop 5 |
+| #004     | Apple    | 20       | Shop 1 |
+| #005     | Apple    | 15       | Shop 1 |
+| #006     | Apple    | 7        | Shop 1 |
+| #006     | Banana   | 4        | Shop 2 |
+
+### 2.3. Expected Result
+> ***2.3.1. Concat Purchased Products by Order ID***
+
+| Product               | Order ID          | # of Order | Cumulative # of Order | 
+| :---                  | :---              | :---       | :---                  |
+| Apple                 | #001, #004, #005  | 3          | 3                     |
+| Apple, Banana         | #002, #006        | 2          | 5                     |  
+| Apple, Banana, Orange | #003              | 1          | 6                     |
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Spyder Project
 <br>
