@@ -14,6 +14,7 @@ To manage inventory with multiple locations by relocating products based on cert
 | Banana      | Shop 2     |
 | Orange      | Shop 3     |
 
+
 > ***2.1.2. Transaction Records***
 
 | Order ID | Product  | Quantity | 
@@ -29,6 +30,7 @@ To manage inventory with multiple locations by relocating products based on cert
 | #006     | Apple    | 7        | 
 | #006     | Banana   | 4        | 
 
+
 ### 2.3. Expected Result
 > ***2.3.1. Concat Purchased Products by Order ID***
 
@@ -37,6 +39,7 @@ To manage inventory with multiple locations by relocating products based on cert
 | Apple                 | #001, #004, #005  | 3          | 3                     | 50%               |
 | Apple, Banana         | #002, #006        | 2          | 5                     | 83%               | 
 | Apple, Banana, Orange | #003              | 1          | 6                     | 100%              |
+
 
 > ***2.3.2. Find Product Set Exceeding Given Thresholds***
 
@@ -48,6 +51,7 @@ To manage inventory with multiple locations by relocating products based on cert
 | 80%               | Apple, Banana                 |
 | 90%               | Apple, Banana, Orange         |
 | 100%              | Apple, Banana, Orange         |
+
 
 > ***2.3.3. Relocate Products Based on Given Thresholds***
 
@@ -63,6 +67,7 @@ To manage inventory with multiple locations by relocating products based on cert
 | #005     | Apple    | 15       | New Shop                 | New Shop                 | New Shop                 |
 | #006     | Apple    | 7        | New Shop                 | New Shop                 | New Shop                 |
 | #006     | Banana   | 4        | Shop 2                   | New Shop                 | New Shop                 |
+
   
 > ***2.3.4. Compare Shipping Efficiency Befroe and After the Relocation***
 
