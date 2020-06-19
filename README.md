@@ -1,31 +1,4 @@
 # Product_Selection
-## Spyder Project
-<br>
-<div align=center><img src="https://github.com/lclh813/Product_Selection/blob/master/0_Pic/P_0_Project_Structure.png"/></div>
-<br>
-
-- ```data_config.py``` Define constants.
-- ```create_db.py``` Import csv files into SQL database.
-
-  * ![#e2f0d9](https://placehold.it/15/e2f0d9/000000?text=+) ```Get_Origin``` Create a dataframe from csv files.
-  * ![#e2f0d9](https://placehold.it/15/e2f0d9/000000?text=+) ```Time_Detect``` Find columns whose names contain "time" and convert the column type from string to datetime format.
-  * ![#e2f0d9](https://placehold.it/15/e2f0d9/000000?text=+) ```Map_DB``` Data type mappings between Python and SQL Server.
-  * ![#e2f0d9](https://placehold.it/15/e2f0d9/000000?text=+) ```Modify_DB``` Convert data type of columns that are misclassified as integer into string.
-  * ![#e2f0d9](https://placehold.it/15/e2f0d9/000000?text=+) ```Auto_Create``` Create a new table in SQL Server and specify data type of each column. 
-  * ![#e2f0d9](https://placehold.it/15/e2f0d9/000000?text=+) ```Insert_DB``` Insert data into SQL server.
-  
-- ```query_db.py``` Use ODBC driver to connect Python to SQL Server and create the expected table.
-
-  * ![#e2f0d9](https://placehold.it/15/e2f0d9/000000?text=+) ```_Filter_Sqlstr``` Select columns that will be used. (Table 1)
-  * ![#e2f0d9](https://placehold.it/15/e2f0d9/000000?text=+) ```_Cum_Sqlstr``` Select a list of products based on certain criteria. (Table 2)
-  * ![#e2f0d9](https://placehold.it/15/e2f0d9/000000?text=+) ```Get_T1``` Return all rows and all columns from Table 1.
-  * ![#e2f0d9](https://placehold.it/15/e2f0d9/000000?text=+) ```Get_T2``` Return all rows and all columns from Table 2.
-  * ![#e2f0d9](https://placehold.it/15/e2f0d9/000000?text=+) ```Get_Both``` Return Table 1 and Table 2.
-  * ![#e2f0d9](https://placehold.it/15/e2f0d9/000000?text=+) ```Comb_Range``` Create the expected result.
-
-- ```main.py``` Contain all the execution codes.
-
-## SQL - For Loop Statement
 
 ## Part 1. Objective
 
@@ -103,5 +76,37 @@ To manage inventory with multiple locations by relocating products based on cert
 - Number of Shipping **After** Relocation (**50%**) = 1 (#001) +2 (#002) +3 (#003) +1 (#004) +1 (#005) +2 (#006) = 10
 - Number of Shipping **After** Relocation (**70%**) = 1 (#001) +1 (#002) +2 (#003) +1 (#004) +1 (#005) +1 (#006) = 7 
 - Number of Shipping **After** Relocation (**90%**) = 1 (#001) +1 (#002) +1 (#003) +1 (#004) +1 (#005) +1 (#006) = 5
+
+## Part 3. Solution
+### 3.1. Spyder Project
+<br>
+<div align=center><img src="https://github.com/lclh813/Product_Selection/blob/master/0_Pic/P_0_Project_Structure.png"/></div>
+<br>
+
+- ```data_config.py``` Define constants.
+- ```create_db.py``` Import csv files into SQL database.
+
+  * ![#e2f0d9](https://placehold.it/15/e2f0d9/000000?text=+) ```Get_Origin``` Create a dataframe from csv files.
+  * ![#e2f0d9](https://placehold.it/15/e2f0d9/000000?text=+) ```Time_Detect``` Find columns whose names contain "time" and convert the column type from string to datetime format.
+  * ![#e2f0d9](https://placehold.it/15/e2f0d9/000000?text=+) ```Map_DB``` Data type mappings between Python and SQL Server.
+  * ![#e2f0d9](https://placehold.it/15/e2f0d9/000000?text=+) ```Modify_DB``` Convert data type of columns that are misclassified as integer into string.
+  * ![#e2f0d9](https://placehold.it/15/e2f0d9/000000?text=+) ```Auto_Create``` Create a new table in SQL Server and specify data type of each column. 
+  * ![#e2f0d9](https://placehold.it/15/e2f0d9/000000?text=+) ```Insert_DB``` Insert data into SQL server.
+  
+- ```query_db.py``` Use ODBC driver to connect Python to SQL Server and create the expected table.
+
+  * ![#e2f0d9](https://placehold.it/15/e2f0d9/000000?text=+) ```_Filter_Sqlstr``` Select columns that will be used. (Table 1)
+  * ![#e2f0d9](https://placehold.it/15/e2f0d9/000000?text=+) ```_Cum_Sqlstr``` Select a list of products based on certain criteria. (Table 2)
+  * ![#e2f0d9](https://placehold.it/15/e2f0d9/000000?text=+) ```Get_T1``` Return all rows and all columns from Table 1.
+  * ![#e2f0d9](https://placehold.it/15/e2f0d9/000000?text=+) ```Get_T2``` Return all rows and all columns from Table 2.
+  * ![#e2f0d9](https://placehold.it/15/e2f0d9/000000?text=+) ```Get_Both``` Return Table 1 and Table 2.
+  * ![#e2f0d9](https://placehold.it/15/e2f0d9/000000?text=+) ```Comb_Range``` Create the expected result.
+
+- ```main.py``` Contain all the execution codes.
+
+### 3.2. SQL - For Loop Statement
+
+
+
 
 
