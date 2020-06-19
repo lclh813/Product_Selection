@@ -55,17 +55,17 @@ To manage inventory with multiple locations by relocating products based on cert
 
 | Order ID | Product  | Quantity | Meet 50% of Total Orders | Meet 70% of Total Orders | Meet 90% of Total Orders |
 | :---:    | :---:    | :---:    | :---:                    | :---:                    | :---:                    |
-| #001     | Apple    | 10       | *New Shop*               | *New Shop*               | *New Shop*               |     
-| #002     | Apple    | 5        | *New Shop*               | *New Shop*               | *New Shop*               |
-| #002     | Banana   | 1        | Shop 2                   | *New Shop*               | *New Shop*               |
-| #003     | Apple    | 2        | *New Shop*               | *New Shop*               | *New Shop*               |
-| #003     | Banana   | 3        | Shop 2                   | *New Shop*               | *New Shop*               |
-| #003     | Orange   | 6        | Shop 5                   | Shop 5                   | *New Shop*               |
-| #004     | Apple    | 20       | *New Shop*               | *New Shop*               | *New Shop*               |
-| #005     | Apple    | 15       | *New Shop*               | *New Shop*               | *New Shop*               |
-| #006     | Apple    | 7        | *New Shop*               | *New Shop*               | *New Shop*               |
-| #006     | Banana   | 4        | Shop 2                   | *New Shop*               | *New Shop*               |
-
+| #001     | Apple    | 10       | New Shop                 | New Shop                 | New Shop                 |     
+| #002     | Apple    | 5        | New Shop                 | New Shop                 | New Shop                 |
+| #002     | Banana   | 1        | Shop 2                   | New Shop                 | New Shop                 |
+| #003     | Apple    | 2        | New Shop                 | New Shop                 | New Shop                 |
+| #003     | Banana   | 3        | Shop 2                   | New Shop                 | New Shop                 |
+| #003     | Orange   | 6        | Shop 5                   | Shop 5                   | New Shop                 |
+| #004     | Apple    | 20       | New Shop                 | New Shop                 | New Shop                 |
+| #005     | Apple    | 15       | New Shop                 | New Shop                 | New Shop                 |
+| #006     | Apple    | 7        | New Shop                 | New Shop                 | New Shop                 |
+| #006     | Banana   | 4        | Shop 2                   | New Shop                 | New Shop                 |
+  
 > ***2.3.4. Compare Shipping Efficiency Befroe and After the Relocation***
 * # of Shipping Before Relocation = 1 (#001) +2 (#002) +3 (#003) +1 (#004) +1 (#005) +2 (#006) = 10
 * # of Shipping After Relocation (50%) = 1 (#001) +2 (#002) +3 (#003) +1 (#004) +1 (#005) +2 (#006) = 10
