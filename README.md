@@ -109,8 +109,15 @@ To manage inventory with multiple locations by relocating products based on cert
 <div align=center><img src="https://github.com/lclh813/Product_Selection/blob/master/0_Pic/P_1_SQL_Structure.png"/></div>
 <br>
 
+- ```PRC_Execute.sql``` Execute stored procedures.
+- ```PRC_Filter_Orders_Data.sql``` Join multiple tables and filter out certain rows based on conditions.
 
+  * ![#dae3f3](https://placehold.it/15/dae3f3/000000?text=+) ```#orders``` Join multiple tables.
+  * ![#e2f0d9](https://placehold.it/15/e2f0d9/000000?text=+) ```filtered``` Filter out certain rows
+  
+- ```PRC_Cumulative_Loop.sql``` Produce the exepected table.
 
-
-
-
+  * ![#dae3f3](https://placehold.it/15/dae3f3/000000?text=+) ```#cumulative``` Count for each prodcut set how many orders are met.
+  * ![#dae3f3](https://placehold.it/15/dae3f3/000000?text=+) ```#product_list``` Create a list of product names that will be relocated to the new shop.
+  * ![#dae3f3](https://placehold.it/15/dae3f3/000000?text=+) ```#product_list_distinct``` Eliminate dulicate elements in the product list.
+  * ![#e2f0d9](https://placehold.it/15/e2f0d9/000000?text=+) ```result``` Compare number of shipping befroe and after the relocation.
