@@ -104,7 +104,8 @@ To manage inventory with multiple locations by relocating products based on cert
 
 - ```main.py``` Contain all the execution codes.
 
-### 3.2. SQL - For Loop Statement
+### 3.2. SQL Server Loop
+
 
 
 
