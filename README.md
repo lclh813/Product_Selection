@@ -23,7 +23,7 @@
   * ![#e2f0d9](https://placehold.it/15/e2f0d9/000000?text=+) ```Get_T1``` Return all rows and all columns from Table 1.
   * ![#e2f0d9](https://placehold.it/15/e2f0d9/000000?text=+) ```Get_T2``` Return all rows and all columns from Table 2.
   * ![#e2f0d9](https://placehold.it/15/e2f0d9/000000?text=+) ```Get_Both``` Return Table 1 and Table 2.
-  * ![#e2f0d9](https://placehold.it/15/e2f0d9/000000?text=+) ```Comb_Range``` 
+  * ![#e2f0d9](https://placehold.it/15/e2f0d9/000000?text=+) ```Comb_Range``` Create the expected result.
 
 - ```main.py``` Contain all the execution codes.
 
