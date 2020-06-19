@@ -67,10 +67,10 @@ To manage inventory with multiple locations by relocating products based on cert
 | #006     | Banana   | 4        | Shop 2                   | New Shop                 | New Shop                 |
   
 > ***2.3.4. Compare Shipping Efficiency Befroe and After the Relocation***
-* # of Shipping Before Relocation = 1 (#001) +2 (#002) +3 (#003) +1 (#004) +1 (#005) +2 (#006) = 10
-* # of Shipping After Relocation (50%) = 1 (#001) +2 (#002) +3 (#003) +1 (#004) +1 (#005) +2 (#006) = 10
-* # of Shipping After Relocation (70%) = 1 (#001) +1 (#002) +2 (#003) +1 (#004) +1 (#005) +1 (#006) = 7 
-* # of Shipping After Relocation (90%) = 1 (#001) +1 (#002) +1 (#003) +1 (#004) +1 (#005) +1 (#006) = 5
+* Number of Shipping Before Relocation = 1 (#001) +2 (#002) +3 (#003) +1 (#004) +1 (#005) +2 (#006) = 10
+* Number of Shipping After Relocation (50%) = 1 (#001) +2 (#002) +3 (#003) +1 (#004) +1 (#005) +2 (#006) = 10
+* Number of Shipping After Relocation (70%) = 1 (#001) +1 (#002) +2 (#003) +1 (#004) +1 (#005) +1 (#006) = 7 
+* Number of Shipping After Relocation (90%) = 1 (#001) +1 (#002) +1 (#003) +1 (#004) +1 (#005) +1 (#006) = 5
 
 | % of Total Orders | Product Set           | # of Shipping Before Relocation | # of Shipping After Relocation | 
 | :---              | :---                  | :---:                           | :---:                          |
