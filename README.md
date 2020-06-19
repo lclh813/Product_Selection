@@ -40,7 +40,7 @@ To manage inventory with multiple locations by relocating products based on cert
 | Apple, Banana         | #002, #006        | 2          | 5                     | 83%               | 
 | Apple, Banana, Orange | #003              | 1          | 6                     | 100%              |
 
-> ***2.3.2. Find Product Sets that Satisfy Given Thresholds***
+> ***2.3.2. Find Product Sets with Given Thresholds***
 
 | % of Total Orders | Product               |
 | :---              | :---                  |
