@@ -64,7 +64,7 @@ To manage inventory with multiple locations by relocating products based on cert
 | #006     | Apple    | 7        | New Shop                 | New Shop                 | New Shop                 |
 | #006     | Banana   | 4        | Shop 2                   | New Shop                 | New Shop                 |
   
-> ***2.3.4. Compare Shipping Efficiency Befroe and After the Relocation***
+> ***2.3.4. Compare Shipping Efficiency Before and After the Relocation***
 
 | % of Total Orders | Product Set           | # of Shipping Before Relocation | # of Shipping After Relocation | 
 | :---:             | :---                  | :---:                           | :---:                          |
@@ -120,4 +120,4 @@ To manage inventory with multiple locations by relocating products based on cert
   * ![#dae3f3](https://placehold.it/15/dae3f3/000000?text=+) ```#cumulative``` Count for each prodcut set how many orders are met.
   * ![#dae3f3](https://placehold.it/15/dae3f3/000000?text=+) ```#product_list``` Create a list of product names that will be relocated to the new shop.
   * ![#dae3f3](https://placehold.it/15/dae3f3/000000?text=+) ```#product_list_distinct``` Eliminate dulicate elements in the product list.
-  * ![#e2f0d9](https://placehold.it/15/e2f0d9/000000?text=+) ```result``` Compare number of shipping befroe and after the relocation.
+  * ![#e2f0d9](https://placehold.it/15/e2f0d9/000000?text=+) ```result``` Compare number of shipping before and after the relocation.
