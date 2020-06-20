@@ -78,6 +78,10 @@ To manage inventory with multiple locations by relocating products based on cert
 - Number of Shipping **After** Relocation (**90%**) = 1 (#001) +1 (#002) +1 (#003) +1 (#004) +1 (#005) +1 (#006) = 5
 
 ## Part 3. Solution
+<br>
+<div align=center><img src="https://github.com/lclh813/Product_Selection/blob/master/0_Pic/P_0_Solution_Structure.png"/></div>
+<br>
+
 ### 3.1. Spyder Project
 <br>
 <div align=center><img src="https://github.com/lclh813/Product_Selection/blob/master/0_Pic/P_0_Project_Structure.png"/></div>
