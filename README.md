@@ -118,6 +118,6 @@ To manage inventory with multiple locations by relocating products based on cert
 - ```PRC_Cumulative_Loop.sql``` Produce the exepected table.
 
   * ![#dae3f3](https://placehold.it/15/dae3f3/000000?text=+) ```#cumulative``` Count for each prodcut set how many orders are met.
-  * ![#dae3f3](https://placehold.it/15/dae3f3/000000?text=+) ```#product_list``` Create a list of product names that will be relocated to the new shop.
-  * ![#dae3f3](https://placehold.it/15/dae3f3/000000?text=+) ```#product_list_distinct``` Eliminate dulicate elements in the product list.
+  * ![#dae3f3](https://placehold.it/15/dae3f3/000000?text=+) ```#product_list``` Create a list of product that will be relocated to the new shop.
+  * ![#dae3f3](https://placehold.it/15/dae3f3/000000?text=+) ```#product_list_distinct``` Eliminate duplicate elements in the product list.
   * ![#e2f0d9](https://placehold.it/15/e2f0d9/000000?text=+) ```result``` Compare number of shipping before and after the relocation.
