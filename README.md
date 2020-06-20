@@ -84,7 +84,7 @@ To manage inventory with multiple locations by relocating products based on cert
 
 ### 3.1. Spyder Project
 <br>
-<div align=center><img src="https://github.com/lclh813/Product_Selection/blob/master/0_Pic/P_0_Project_Structure.png"/></div>
+<div align=center><img src="https://github.com/lclh813/Product_Selection/blob/master/0_Pic/P_1_Project_Structure.png"/></div>
 <br>
 
 - ```data_config.py``` Define constants.
@@ -110,7 +110,7 @@ To manage inventory with multiple locations by relocating products based on cert
 
 ### 3.2. SQL Server Loop
 <br>
-<div align=center><img src="https://github.com/lclh813/Product_Selection/blob/master/0_Pic/P_1_SQL_Structure.png"/></div>
+<div align=center><img src="https://github.com/lclh813/Product_Selection/blob/master/0_Pic/P_2_SQL_Structure.png"/></div>
 <br>
 
 - ```PRC_Execute.sql``` Execute stored procedures.
