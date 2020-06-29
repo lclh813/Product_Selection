@@ -117,7 +117,7 @@ To manage inventory with multiple locations by relocating products based on cert
 - ```PRC_Filter_Orders_Data.sql``` Join multiple tables and filter out certain rows based on conditions.
 
   * ![#dae3f3](https://placehold.it/15/dae3f3/000000?text=+) ```#orders``` Join multiple tables.
-  * ![#e2f0d9](https://placehold.it/15/e2f0d9/000000?text=+) ```filtered``` Filter out certain rows
+  * ![#e2f0d9](https://placehold.it/15/e2f0d9/000000?text=+) ```filtered``` Filter out certain rows.
   
 - ```PRC_Cumulative_Loop.sql``` Produce the exepected table.
 
